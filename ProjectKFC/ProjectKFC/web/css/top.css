@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clr{
+	clear: both;
+}
+
+.KFC{
+	width: 1349px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.top{
+	background: url(../images/Home/body_bg.jpg) repeat-x;
+	padding: 0 0 0 150px;
+	height: 100px;
+}
+
+.bar{
+	background: url(../images/Home/bar.png) no-repeat center;
+	width: 400px;
+	height: 25px;
+	margin: 0px auto;
+    position: relative;
+    right: -200px;
+    top: 4px;
+}
+ 
+
+.bar a{
+	text-decoration: none;
+	display: inline;
+	font-size: 15px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #FFF;
+}
+
+select.at_bar{
+    background-color: transparent;
+    color:#FC3;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+.user{
+	float: left;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+
+.user a,.user select{
+	padding-top: 3px;
+	padding-left: 4px;
+}
+
+.user img{
+    position: absolute;
+    right: 343px;
+    top: 2px;
+}
+
+.user a:hover{
+	color: #FF3;
+}
+
+.language{
+	padding-top: 3px;
+}
+.language a{
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.logo_kfc{
+	position: relative;
+	top: -18px;
+	width: 100px;
+}
+
+ul.menu{
+	position: relative;
+	top: -43px;
+	width: 900px;
+	display: block;
+	padding: 0 0 0 270px;
+	border-color: transparent;
+	height: 31px;
+}
+
+ul.menu li{
+	display: inline;
+	font-size: 17px;
+	font-family: Calibri;
+	font-weight: bold;
+	text-align: center;
+	background: transparent;
+	text-align: center;
+	color: #FFF;
+}
+
+ul.menu li a{
+	text-decoration: none;
+	color: #FFF;
+	background: transparent;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+}
+
+ul.menu li a:hover{
+	background: #FFF;
+	color: #F03;
+}
+ul.menu li a.location{
+	background: #FFF;
+	color: #F00;
+}
+

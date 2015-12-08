@@ -1,0 +1,132 @@
+._body{
+	margin: 0px auto;
+	width: 930px;
+}
+
+._body a{
+	text-decoration: none;
+}
+
+._top{
+	background: url(../images/Promote/KM.png) no-repeat top left;
+	width: 924px;
+	padding-top: 310px;
+}
+
+._top_title{
+	height: 80px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+._top_info{
+	height: 80px;
+	background: transparent;
+	font-size: 18px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+img.top_pro{
+	width: 692px;
+	height: 407px;
+}
+
+._news{
+	margin: 0px auto;
+	padding-top: 15px;
+}
+
+.big_area{
+	background: #CCCCCC;
+	width: 228px;
+	height: 652px;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 10px;
+}
+
+.short_detail{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.short_detail hr{
+	background: #AAA;
+	height: 1px;
+	border: none;
+}
+
+._title{
+	font-size: 17px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #C00;
+	padding-top: 5px;
+}
+
+._info{
+	height: 280px;
+	padding-top: 5px;
+}
+
+._short{
+	font-size: 16px;
+	font-family: Calibri;
+	padding-top: 5px;
+	color: #333;
+}
+
+._view_more{
+	padding-top: 10px;
+}
+
+._view_more a{
+	font-size: 18px;
+	font-family: Calibri;
+	color: #C00;
+}
+
+.share_like{
+	padding-top: 10px;
+}
+
+.share{
+	background: url(../images/Promote/share.png) no-repeat left;
+	display: inline;
+	width: 80px;
+	padding-left: 20px;
+	float: left;
+	font-size: 17px;
+	font-family: Calibri;
+	color: #C00;
+}
+
+.share:hover{
+	background: url(../images/Promote/share1.png) no-repeat left;
+	color: #336699 ;
+}
+
+.like{
+	display: inline;
+	float: right;
+	font-size: 18px;
+}
+
+.like a{
+	font-size: 18px;
+	font-family: Calibri;
+	color: #C00;
+	font-weight: bold;
+}
+
+.like a:hover{
+	color: #336699;
+}
+
+img.img_top{
+	height: 326px;
+	width: 228px;
+}

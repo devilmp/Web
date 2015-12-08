@@ -1,0 +1,111 @@
+.center_content{
+	float: left;
+	background: #FFF;
+	
+}
+
+table tr.bottom_center{
+	height: 142px;
+	background: #FFF;
+}
+
+table.adv_center td{
+	background: #FFF;
+	text-align: center;
+	color: #FFF;
+}
+
+table tr td.service{
+	width: 228px;
+	height: 138px;
+}
+
+table tr td.service img.service_image{
+	width: 228px;
+	height: 128px;
+}
+
+table tr td.adv_center_top{
+	width: 692px;
+}
+
+table tr td.adv_center_top img.adv_center_top_img{
+	width: 692px;
+}
+
+table tr td.find_pos{
+	width: 228px;
+	height: 150px;
+	background: #FFCC33;
+	padding-bottom: 20px;
+}
+
+table tr td.find_pos img{
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.find_nearest{
+	float: right;
+	padding-top: 35px;
+	padding-right: 20px;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #C03;
+	text-align: left;
+}
+
+select.slt_adv{
+	border: 1px solid #F00;
+	background: #FFFF99 ;
+	width: 200px;
+	height: 30px;
+	color: #C03;
+}
+
+.food_menu{
+	background: #C03;
+	width: 228px;
+	height: 30px;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.promotional{
+	background: #C03;
+	width: 228px;
+	height: 30px;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.order_birthday_party{
+	background: #C03;
+	width: 228px;
+	height: 30px;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.mobile_app{
+	background: #C03;
+	width: 228px;
+	height: 30px;
+	font-family: Calibri;
+	font-size: 20px;
+	padding-top: 4px;
+	font-weight: bold;
+	text-align: center;
+}

@@ -1,0 +1,96 @@
+.content{
+	float: left;
+}
+.left_content{
+	float: left;
+	background: #FFF;
+	width: 208px;
+}
+
+.left_content table{
+	padding-top: 2px;
+}
+
+.left_content table tr td{
+	padding-bottom: 5px;
+}
+
+.left_content table tr td.a{
+	background: url(../images/Home/Left/01.png) no-repeat top left;
+	color: transparent;
+	height: 104px;
+	width: 100px;
+	padding-right: 5px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.a:hover{
+	background: url(../images/Home/Left/01.jpg) no-repeat top left;
+	opacity: 1.0;
+}
+
+.left_content table tr td.b{
+	background: url(../images/Home/Left/02.png) no-repeat top left;
+	color: transparent;
+	width: 100px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.b:hover{
+	background: url(../images/Home/Left/02.jpg) no-repeat top left;
+	opacity: 1.0;
+}
+
+.left_content table tr td.c{
+	background: url(../images/Home/Left/03.png) no-repeat top left;
+	color: transparent;
+	height: 105px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.c:hover{
+	background: url(../images/Home/Left/03.jpg) no-repeat top left;
+	opacity: 1.0;
+}
+
+.left_content table tr td.d{
+	background: url(../images/Home/Left/04.png) no-repeat top left;
+	color: transparent;
+	height: 183px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.d:hover{
+	background: url(../images/Home/Left/04.jpg) no-repeat top left;
+	opacity: 1.0;
+}
+
+.left_content table tr td.e{
+	background: url(../images/Home/Left/05.png) no-repeat top left;
+	color: transparent;
+	height: 104px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.e:hover{
+	background: url(../images/Home/Left/05.jpg) no-repeat top left;
+	opacity: 1.0;
+}
+
+.left_content table tr td.f{
+	background: url(../images/Home/Left/06.png) no-repeat top left;
+	color: transparent;
+	height: 104px;
+	opacity: 0.2;
+	filter: alpha(opacity=60);
+}
+
+.left_content table tr td.f:hover{
+	background: url(../images/Home/Left/06.jpg) no-repeat top left;
+	opacity: 1.0;
+}

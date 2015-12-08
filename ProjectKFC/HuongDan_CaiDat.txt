@@ -1,0 +1,4 @@
+﻿Bước 1: Mở SQL Server chọn file KFC.sql chạy các lệnh tạo database
+Bước 2: Mở NetBeans , chọn File -> Open Project... -> chọn file ProjectKFC
+Bước 3: Chạy file Home.jsp ~ trang chủ
+Bước 4: Chạy file Admin_Food.jsp ~ trang admin

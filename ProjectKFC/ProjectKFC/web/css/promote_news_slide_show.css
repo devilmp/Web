@@ -1,0 +1,10 @@
+
+.slide-image {
+    left: 0;
+    position: absolute;
+    top: -48px;
+    opacity:0;}
+.slide-image a img{
+	width: 692px;
+	height: 396px;
+}

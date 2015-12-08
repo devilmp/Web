@@ -1,0 +1,17 @@
+.news_promo_details{
+	width: 900px;
+	margin: 0px auto;
+}
+.news_promo_title{
+	font-family: Calibri;
+	font-size: 25px;
+	font-weight: bold;
+	color: #C03;
+}
+
+.news_promo_content{
+	font-family: Calibri;
+	font-size: 20px;
+	color: #aaa;
+	border-bottom: 1px solid #ccc;
+}

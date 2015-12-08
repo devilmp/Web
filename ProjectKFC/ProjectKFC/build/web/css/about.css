@@ -1,0 +1,114 @@
+table.adv_center td.adv_menu_page{
+	background: url(../images/About/about_banner.jpg) no-repeat top left;
+	background-size: 691px 397px;
+}
+
+.around_trans_box{
+	background: rgba(0, 0, 0, 0.5);
+	width: 210px;
+	height: 389px;
+}
+
+.about_menu_transbox{
+	width: 200px;
+	height: 397px;
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+.about_menu_transbox a{
+        padding-bottom: 10px;
+}
+.title_menu p{
+	font-size: 35px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	text-indent: 5px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.about_menu_transbox hr{
+	background: red;
+        margin-top: 15px;
+        margin-bottom: 15px;
+	height: 1px;
+	border: none;
+}
+
+.about_menu_transbox a{
+	font-size: 17px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.about_menu_transbox a:hover{
+	color: #F00;
+}
+
+.about_menu_transbox a.location{
+	color: #F00;
+}
+
+.top_about{
+	margin: 0px auto;
+	width: 924px;
+	height: 124px;
+	background: url(../images/About/top_about_bg.jpg) repeat-x;
+}
+
+.top_about .owner{
+	width: 474px;
+	height: 124px;
+	float: left;
+	background: url(../images/About/owner.jpg) no-repeat left bottom;
+}
+
+.top_about .owner p{
+	font-size: 40px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 170px;
+	padding-top: 20px;
+}
+
+table.about{
+	width: 924px;
+	margin: 0px auto;
+	font-family: Calibri;
+	font-size: 17px;
+	color: gray;
+	padding-left: 24px;
+}
+
+table.about img.img_table{
+	width: 450px;
+	height: 320px;
+	float: right;
+}
+
+.moc .moc_title{
+	font-size: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #C00;
+}
+
+.moc ul.cot_moc{
+	padding-left: 20px;
+}
+
+.moc ul.cot_moc li{
+	font-weight: bold;
+	color: #C00;
+}
+
+.moc ul.cot_moc li p{
+	color: black;
+}

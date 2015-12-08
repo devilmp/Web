@@ -1,0 +1,158 @@
+.order_box{
+	width: 900px;
+	background: #DDDDDD;
+	margin: 10px auto;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border: 1px solid #BBBBBB;
+}
+
+.form_order{
+	width: 900px;
+	background: url(../images/Menu/kfc_moto.png) no-repeat right;
+}
+
+.box_title{
+	width: 240px;
+	background: #C03;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	float: top left;
+	height: 40px;
+	color: white;
+	font-family: Calibri;
+	font-size: 19px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+table tr td .reg_note{
+	float: left;
+	padding-left: 40px;
+	color: #C00;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+        width: 200px;
+}
+
+table tr td.reg_label{
+	width: 200px;
+	text-align: right;
+	color: #333333;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+}
+.reg_note .important{
+	float: left;
+	color: #C00;
+}
+
+.reg_label .important{
+	float: right;
+	padding-left: 5px;
+	color: #C00;
+}
+
+.reg_input{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.reg_input input{
+	width: 400px;
+	height: 30px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	display: inline;
+	border: 1px solid #AAA;
+}
+
+.reg_input input:focus{
+	box-shadow: 0px 0px 6px #0099FF;
+	border: 1px solid #0099FF;
+}
+
+.reg_input select.slt_reg_address{
+	height: 40px;
+	width: 402px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	margin-right: 30px;
+}
+
+.reg_input select.slt_reg_address:focus{
+	box-shadow: 0px 0px 6px #0099FF;
+	border: 1px solid #0099FF;
+}
+
+.reg_input select.slt_reg_address{
+	-webkit-appearance: menulist;
+}
+
+.reg_input select.slt_reg option, .reg_input select.slt_reg_address option{
+	text-align: center;
+}
+
+.reg_note, .reg_label{
+	font-size: 20px;
+	color: #AAA;
+}
+
+table tr td.reg_click{
+	padding-left: 210px;
+	width: 200px;
+}
+
+.reg_click input{
+	height: 40px;
+	font-size: 17px;
+	font-weight: bold;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+}
+
+.reg_click input.submit{
+	width: 50px;
+	color: white;
+	background: #C00;
+	border: 1px solid #C03;
+	opacity: 1 !important;
+}
+
+.reg_click input.submit:hover{
+	border: 1px solid #F00;
+}
+
+.reg_click input.reset{
+	width: 50px;
+	color: white;
+	background: #C00;
+	border: 1px solid #C03;
+	opacity: 1 !important;
+}
