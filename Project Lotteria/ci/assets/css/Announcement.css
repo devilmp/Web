@@ -1,0 +1,25 @@
+.announce{
+	width: 80%;
+	height: 303px;
+	margin-top: 20.2%;
+	margin-left: 10%;
+	float: left;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.announce .announce_title{
+	font-size: 50px;
+	color: #C03;
+	border-bottom: 2px solid #C03;
+}
+.announce a.director{
+	margin-top: 10px;
+	width: 200px;
+	display: block;
+	font-size: 20px;
+	color: white;
+	background: #C03;
+	text-align: center;
+	padding: 10px 0px;
+	border-radius: 5px 5px 5px 5px;
+}

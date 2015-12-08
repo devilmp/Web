@@ -1,0 +1,468 @@
+.banner{
+	margin-bottom: 5%;
+}
+.delivery_banner{
+	width: 80%;
+	height:120%;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	background: url(../image/Order/moto.png) right 10px no-repeat;
+	background-size: 356px 325px;
+	background-position: 100% 30%;
+}
+.delivery_title{
+	width: 100%;
+	height: 20%;
+	font-size: 22px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 5%;
+	left: -36%;
+}
+.shopping_cart_area{
+	width: 90%;
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+.shopping_cart_title{
+	width: 40%;
+	height: 10%;
+	float: left;
+	font-family: Calibri;
+	font-size: 40px;
+	font-weight: bold;
+	color: #C03;
+	margin-bottom: 3%;
+}
+.field_title{
+	width: 100%;
+	height: 20%;
+	float: left;
+	position: relative;
+	top: 7%;
+}
+.field_title div{
+	height: 60%;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	margin-right: 2%;
+	float: left;
+	font-family: Calibri;
+	font-size: 25px;
+	font-weight: bold;
+	color: #888;
+	padding-bottom: 1%;
+}
+.field_title div#item_name{
+	width: 32%;
+}
+.field_title div#description{
+	width: 30%;
+}
+.field_title div#quantities, .field_title div#cost{
+	width: 15%;
+}
+.ordered_item{
+	float: left;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	top: 10%;
+	margin-bottom: 5%;
+}
+
+.ordered_item div{
+	float: left;
+	height: 100%;
+	margin-right: 2%;
+	font-family: Calibri;
+	font-size: 25px;
+	color: #888;
+}
+.ordered_item div#item_image{
+	width: 32%;
+}
+.ordered_item div#item_description{
+	width: 30%;
+	padding-top: 50px;
+}
+.ordered_item div.item_quantities, .ordered_item div#item_cost{
+	width: 15%;
+	padding-top: 50px;
+}
+.ordered_item div img.delete{
+	position: relative;
+	top: -85%;
+	left: 0;
+	cursor: pointer;
+}
+.ordered_item div img.image_detail{
+	position: relative;
+	left: 10%;
+}
+.ordered_item div.item_quantities a{
+	width: 10%;
+	height: 30%;
+	float: left;
+	color: #aaa;
+}
+.ordered_item div.item_quantities div{
+	width: 50%;
+	height: 30%;
+	float: left;
+	color: #aaa;
+	text-align: center;
+}
+.total_cost{
+	width: 100%;
+	height: 50%;
+	float: left;
+	border-top: 2px solid #ddd;
+}
+
+.total_cost div{
+	margin-top: 2%;
+	height: 30%;
+	font-family: Calibri;
+	float: right;
+	color: #888;
+}
+
+.total_cost div#total_cost_title{
+	width: 15%;
+	font-size: 25px;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.total_cost div#total_cost_amount{
+	width: 15%;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 1%;
+}
+
+.total_cost div#total_cost_currency{
+	width: 5%;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: super;
+}
+a.fill_information{
+	margin-top: -5%;
+	width: 95%;
+	height: 10%;
+	float: left;
+	padding: 10px 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 25px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #888;
+}
+
+a.fill_information:hover{
+	background: #d11920;
+	color: white;
+}
+
+.customer_informations{
+	width: 90%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	display: none;
+}
+
+.form_title{
+	width: 100%;
+	height: 8%;
+	font-size: 25px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #888;
+	vertical-align: bottom;
+	border-bottom: 1px solid #ddd;
+	margin-top: 5%;
+}
+
+.customer_informations form{
+	margin-top: 3%;
+	font-size: 25px;
+	font-family: Calibri;
+	color: #888;
+}
+
+.customer_informations form .infor_field{
+	width: 100%;
+	height: 10%;
+}
+.customer_informations form .infor_field .field_title{
+	width: 25%;
+	text-align: left;
+	margin-right: 2%;
+}
+.customer_informations form .infor_field .field_title#forced{
+	width: 95%;
+}
+.customer_informations form input[type="text"]{
+	width: 70%;
+	height: 60%;
+	border: 1px solid #ddd;
+	font-size: 25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+}
+.customer_informations form input:focus, .customer_informations form select:focus{
+	box-shadow: 0px 0px 6px #d11920;
+	border: 1px solid #d11920;
+}
+.customer_informations form select{
+	float: left;
+	width: 20%;
+	height: 60%;
+	border: 1px solid #ddd;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	font-weight: normal;
+}
+.customer_informations form .infor_field .field_title#quan_huyen{
+	margin-left: 3%;
+}
+
+.customer_informations form .infor_field input[type="button"]{
+	float: left;
+	width: 20%;
+	height: 60%;
+	border: none;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	background: #d11920;
+	color: white;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.customer_informations form .infor_field input[type="reset"]{
+	float: left;
+	width: 10%;
+	height: 60%;
+	border: none;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	background: #d11920;
+	color: white;
+	margin-right: 10%;
+}
+.customer_informations form a{
+	float: left;
+	width: 20%;
+	height: 50%;
+	text-align: center;
+	padding-top: 7px;
+	border: none;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	background: #d11920;
+	color: white;
+}
+.customer_informations form input.input_click:hover, .customer_informations form a:hover{
+	background: #B7D119;
+	color: white;
+}
+.report_title{
+	width: 100%;
+	height: 7%;
+	background: #d11920;
+	font-weight: bold;
+	font-family: Calibri;
+	font-size: 20px;
+	padding-top: 2%;
+	padding-left: 5%;
+	color: white;
+}
+.report_title .report_close{
+	width: 35px;
+	height: 35px;
+	font-size: 34px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	margin-top: -3%;
+	margin-right: 3%;
+	float: right;
+	cursor: pointer;
+}
+.report .title{
+	width: 100%;
+	height: 7%;
+	padding-top: 3%;
+	padding-left: 2%;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #d11920;
+}
+.report .customer_infor{
+	width: 90%;
+	height: 5%;
+	margin-top: 1%;
+	margin-left: 5%;
+	color: #999;
+}
+.report .customer_infor .field_title{
+	font-weight: bold;
+	width: 48%;
+	float: left;
+}
+.report .customer_infor .field_detail{
+	width: 38%;
+	float: right;
+	text-align: left;
+	padding-left: 10%;
+}
+.report .shopping_cart_infor{
+	width: 95%;
+	height: 35%;
+	float: left;
+	margin-left: 3%;
+	overflow: scroll;
+}
+.report .shopping_cart_infor div#column_name{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #555;
+}
+.report .shopping_cart_infor div#column_name div{
+	float: left;
+	height: 15%;
+	background: #ccc;
+	padding-top: 2%;
+	text-align: center;
+}
+.report .shopping_cart_infor div.infor_row div{
+	float: left;
+	height: 15%;
+	background: #eee;
+	padding-top: 2%;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+#item_name{
+	width: 35%;
+}
+#item_cost, #item_quantities{
+	width: 20%;
+}
+#total_cost{
+	width: 25%;
+}
+.payment{
+	width: 95%;
+	height: 5%;
+	margin-left: 3%;
+	margin-top: 1%;
+	font-family: sans-serif;
+	color: #888;
+	font-weight: bold;
+}
+
+.payment div{
+	float: right;
+	text-align: center;
+}
+.payment div.payment_currency{
+	width: 5%;
+	height: 100%;
+	padding-top: 4px;
+}
+.payment div.payment_value{
+	width: 30%;
+	height: 100%;
+	font-size: 18px;
+	color: #d11920;
+	text-align: right;
+	padding-right: 10px;
+}
+.payment div.payment_title{
+	width: 30%;
+	height: 100%;
+	padding-top: 4px;
+}
+.report .confirm_area{
+	width: 95%;
+	height: 10%;
+	float: left;
+	margin-left: 3%;
+}
+.report .confirm_area input{
+	float: right;
+	border: none;
+	padding: 7px 7px;
+	margin-left: 1%;
+	margin-top: 2%;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	background: #d11920;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	cursor: pointer;
+}

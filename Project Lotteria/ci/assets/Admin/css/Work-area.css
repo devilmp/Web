@@ -1,0 +1,743 @@
+.work_area.home{
+	width: 100%;
+}
+.work_area .task_area{
+	width: 95%;
+	margin: 3% 3% 0 2%;
+}
+.work_area .task_area .menu_area{
+	width: 100%;
+	height: 100px;
+}
+.work_area .task_area .menu_area .menu{
+	width: 576px;
+	height: 100%;
+	margin: 0px auto;
+}
+.work_area .task_area .menu_area .menu .task{
+	width: 96px;
+	height: 86px;
+	margin: 7px auto;
+	float: left;
+}
+.work_area .task_area .menu_area .menu .task .button{
+	width: 84px;
+	height: 84px;
+	border: 1px solid #ddd;
+	float: left;
+	background: white;
+	border-radius: 5px 5px 5px 5px;
+}
+.work_area .task_area .menu_area .menu .task .button a{
+	display: block;
+	width: 74px;
+	height: 74px;
+	margin: 5px 6px 6px 5px;
+	background: #E42217;
+	float: left;
+	border-radius: 4px 4px 4px 4px;
+	text-align: center;
+}
+.work_area .task_area .menu_area .menu .task .button a img{
+	margin: 21px auto;
+}
+.work_area .task_area .menu_area .menu .task .caption{
+	width: 18px;
+	height: 17px;
+	padding-top: 1px;
+	border: 1px solid black;
+	border-radius: 3px 3px 3px 3px;
+	font-family: Calibri;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 70px;
+}
+.work_area .task_area .menu_area .menu .task .caption.red{
+	background: red;
+}
+.work_area .task_area .menu_area .menu .task .caption.green{
+	background: green;
+}
+.work_area .task_area .statistic{
+	width: 100%;
+	height: 90px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.work_area .task_area .statistic .category{
+	border-radius: 5px 5px 5px 5px;
+	width: 341px;
+	height: 100%;
+	float: left;
+	margin-right: 25px;
+}
+.work_area .task_area .statistic .category.red{  
+	border: 1px solid #AF2D1C;
+	background: -webkit-linear-gradient(top, #D96D3A 0%,#CB2C1A 100%);
+}
+.work_area .task_area .statistic .category.green{  
+	border: 1px solid #677C13;
+	background: -webkit-linear-gradient(top, #ADC800 0%,#829E18 100%);
+}
+.work_area .task_area .statistic .category.blue{
+	border: 1px solid #7E8FC4;
+	background: -webkit-linear-gradient(top, #90C2EE 0%,#73A4D9 100%);
+}
+.work_area .task_area .statistic .category#no_margin_right{
+	margin-right: 0px;
+}
+.work_area .task_area .statistic .category .statistic_summary{
+	width: 153px;
+	height: 78px;
+	margin: 6px;
+	float: left;
+	border-radius: 4px 4px 4px 4px;
+}
+.work_area .task_area .statistic .category.red .statistic_summary{
+	background: #7F1C0F;
+}
+.work_area .task_area .statistic .category.green .statistic_summary{
+	background: #677C12;
+}
+.work_area .task_area .statistic .category.blue .statistic_summary{
+	background: #4A82BA;
+}
+.work_area .task_area .statistic .category .statistic_summary .title{
+	width: 100%;
+	height: 14px;
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: Calibri;
+	color: white;
+	text-align: center;
+}
+.work_area .task_area .statistic .category .statistic_summary .number{
+	width: 100%;
+	height: 35px;
+	font-size: 35px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.work_area .task_area .statistic .category .statistic_summary .name{
+	width: 100%;
+	height: 35px;
+	font-size: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.work_area .task_area .statistic .category .statistic_summary .name a{
+	color: white;
+}
+.work_area .task_area .statistic .category .statistic_summary .name a:hover{
+	text-decoration: underline;
+}
+.work_area .task_area .statistic .category .statistic_details{
+	width: 165px;
+	height: 78px;
+	margin-left: 10px;
+	margin-top: 6px;
+	float: left;
+}
+.work_area .task_area .statistic .category .statistic_details .details{
+	width: 100%;
+	font-size: 14px;
+	font-family: Calibri;
+	color: white;
+	float: left;
+}
+.work_area .task_area .statistic .category .statistic_details .details div{
+	float: left;
+}
+.work_area .task_area .statistic .category .statistic_details .details .name{
+	margin-left: 5px;
+	float: left;
+}
+.work_area .task_area .statistic .category .statistic_details .details a{
+	color: white;
+}
+.work_area .task_area .statistic .category .statistic_details .details a:hover{
+	text-decoration: underline;
+}
+.work_area .task_area .main_categories{
+	width: 100%;
+	height: 400px;
+	float: left;
+	margin-top: 10px;
+}
+.work_area .task_area .main_categories .category{
+	width: 343px;
+	height: 300px;
+	float: left;
+	margin-right: 25px;
+}
+.work_area .task_area .main_categories .category.registrations{
+	margin-right: 0px;
+}
+.work_area .task_area .main_categories .category .title_bar{
+	width: 100%;
+	height: 40px;
+	background: #E42217;
+	border-radius: 4px 4px 0px 0px;
+	float: left;
+}
+.work_area .task_area .main_categories .category .title_bar .icon{
+	height: 28px;
+	padding-top: 12px;
+	float: left;
+	margin: 0 10px;
+}
+.work_area .task_area .main_categories .category .title_bar .title{
+	height: 24px;
+	width: 100px;
+	padding: 10px 0px 6px 0px;
+	font-size: 16px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	float: left;
+}
+.work_area .task_area .main_categories .category .title_bar a{
+	display: block;
+	width: 39px;
+	height: 40px;
+	float: right;
+	text-align: center;
+	border-left: 1px solid #C11B17;
+}
+.work_area .task_area .main_categories .category .title_bar a img{
+	margin-top: 12px;
+}
+.work_area .task_area .main_categories .category .table{
+	width: 341px;
+	height: 326px;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px 0px 4px 4px;
+}
+.work_area .task_area .main_categories .category .table.white_bg{
+	background: #F9F9F9;
+}
+.work_area .task_area .main_categories .category .table a.month{
+	display: block;
+	width: 100%;
+	height: 14px;
+	float: left;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #7F1C0F;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #ddd;
+}
+.work_area .task_area .main_categories .category .table a.month.non_border{
+	border-bottom: none;
+	margin-bottom: 2px;
+}
+.work_area .task_area .main_categories .category .table a.month .nav{
+	width: 9px;
+    height: 8px;
+    background-size: 6px 6px;
+    background: url(../image/ui-icons.png) left top no-repeat;
+    background-position: -68px -20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.work_area .task_area .main_categories .category .table .toggle_area{
+	width: 100%;
+	float: left;
+}
+.work_area .task_area .main_categories .category .table .toggle_area.hidden{
+	display: none;
+}
+.work_area .task_area .main_categories .category .table .toggle_area .show_more{
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	background: #E4E8ED;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.work_area .task_area .main_categories .category .table .toggle_area .show_more a{
+	display: block;
+	width: 15%;
+	text-align: center;
+	background: #E42217;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-family: Calibri;
+	color: white;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	float: right;
+	margin-right: 2%;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table{
+	width: 100%;
+	border-top: 1px solid white;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td{
+	border-bottom: 1px solid #ddd;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td.border{
+	border-right: 1px solid #ddd;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td.border.center{
+	width: 50%;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr.head{
+	font-size: 14px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #aaa;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td{
+	background: #F1F1F1;
+	padding-left: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr.odd td{
+	background: white;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr.even td{
+	background: #E4E8ED;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td .date{
+	width: 100%;
+	font-size: 14px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #7F1C0F;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td .time{
+	width: 100%;
+	font-size: 12px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #aaa;
+	text-align: center;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td a{
+	font-size: 14px;
+	font-family: Calibri;
+	color: blue;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td a:hover{
+	text-decoration: underline;
+}
+.work_area .task_area .main_categories .category .table .toggle_area table tr td.money .value{
+	width: 100%;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.table .table_content table tr td.identify{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.work_area .task_area .main_categories .category .table .list{
+	width: 96%;
+	height: 96%;
+	margin: 2%;
+	overflow-y: scroll; 
+}
+.work_area .task_area .main_categories .category .table .list::-webkit-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.work_area .task_area .main_categories .category .table .list::-webkit-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+}
+.work_area .task_area .main_categories .category .table .list::-moz-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.work_area .task_area .main_categories .category .table .list::-moz-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+}
+.work_area .task_area .main_categories .category .table .list .news{
+	width: 98%;
+	border-top: 1px solid white;
+	float: left;
+}
+.work_area .task_area .main_categories .category .table .list .news.non_border{
+	border-top: none;
+}
+.work_area .task_area .main_categories .category .table .list .news a.title{
+	display: block;
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #7F1C0F;
+	margin-top: 5px;
+}
+.work_area .task_area .main_categories .category .table .list .news a.title:hover{
+	text-decoration: underline;
+}
+.work_area .task_area .main_categories .category .table .list .news p.content{
+	width: 90%;
+	padding-left: 10px;
+	float: left;
+	margin-top: 5px;
+	font-size: 11px;
+	font-family: sans-serif;
+	line-height: 22px;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ddd;
+	margin-top: 10px;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot .date_time{
+	font-size: 11px;
+	font-family: sans-serif;
+	color: #aaa;
+	float: left;
+	margin-bottom: 10px;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot .action{
+	float: right;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot .action a{
+	display: block;
+	width: 14px;
+	height: 14px;
+	float: right;
+	background: url(../image/glyphicons-halflings.png) left top no-repeat;
+	margin-right: 5px;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot .action a.edit{
+	background-position: 0px -72px;
+}
+.work_area .task_area .main_categories .category .table .list .news .foot .action a.delete{
+	background-position: -455px 0px;
+}
+.work_area .task_area .main_categories .category .table .list .item{
+	border-bottom: 1px solid #ddd;
+	width: 98%;
+	height: 42px;
+	float: left;
+	margin-top: 5px;
+}
+.work_area .task_area .main_categories .category .table .list .item:hover{
+	background: #eee;
+}
+.work_area .task_area .main_categories .category .table .list .item a.image{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+.work_area .task_area .main_categories .category .table .list .item a.name{
+	display: block;
+	height: 12px;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #005580;
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.work_area .task_area .main_categories .category .table .list .item a.name .string_name{
+	float: left;
+	height: 100%;
+	font-weight: bold;
+}
+.work_area .task_area .main_categories .category .table .list .item a.name .string_name:hover{
+	text-decoration: underline;
+}
+.work_area .task_area .main_categories .category .table .list .item a.name .approve{
+	height: 12px;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #888;
+	margin-left: 50px;
+	padding-bottom: 10px;
+	float: left;
+}
+.work_area .task_area .main_categories .category .table .list .item .action{
+	float: right;
+}
+.work_area .task_area .main_categories .category .table .list .item .action a{
+	display: block;
+	width: 14px;
+	height: 14px;
+	float: right;
+	background: url(../image/glyphicons-halflings.png) left top no-repeat;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.work_area .task_area .main_categories .category .table .list .item .action a.remove{
+	background-position: -313px 0px;
+}
+.work_area .task_area .main_categories .category .table .list .item .action a.ok{
+	background-position: -288px 0px;
+}
+.work_area .task_area .main_category{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.title_bar{
+	width: 100%;
+	height: 40px;
+	background: #E42217;
+	border-radius: 4px 4px 0px 0px;
+	float: left;
+}.title_bar .icon{
+	height: 28px;
+	padding-top: 12px;
+	float: left;
+	margin: 0 10px;
+}
+.title_bar .title{
+	height: 24px;
+	width: 100px;
+	padding: 10px 0px 6px 0px;
+	font-size: 16px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+	float: left;
+}
+.title_bar a, .title_bar button, .title_bar a#deletemulti{
+	display: block;
+	width: 39px;
+	height: 40px;
+	float: right;
+	text-align: center;
+	border: none;
+	border-left: 1px solid #C11B17;
+	background: transparent;
+	cursor: pointer;
+}
+.title_bar a.close{
+	height: 23px !important;
+}
+.title_bar a img{
+	margin-top: 12px;
+}
+.title_bar.small{
+	height: 34px;
+}
+.title_bar.small .title{
+	font-size: 13px;
+	padding: 8px 0px 2px 0px;
+	font-weight: bold;
+}
+.title_bar.small .icon{
+	height: 26px;
+	padding-top: 8px;
+}
+.title_bar.small a{
+	height: 34px;
+}
+.title_bar.small a img{
+	margin-top: 8px;
+}
+.table{
+	width: 100%;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px 0px 4px 4px;
+	background: #F9F9F9;
+}.table .table_content.hidden {
+	display: none;
+}
+.table .table_content table{
+	width: 100%;
+}
+.table .table_content table tr td{
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #555;
+	padding-left: 1%;
+}
+.table.small{
+	width: 484px;
+}
+.table.small .table_content{
+	width: 484px;
+	height: 210px;
+	overflow-y: scroll;
+}
+.table.small .table_content::-webkit-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.table.small .table_content::-webkit-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+}
+.table.small .table_content::-moz-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.table.small .table_content::-moz-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+}
+.table.small table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	text-align: center;
+}
+.table.small table tr.head td.change{
+	width: 50px;
+}
+.table.small table tr td.non_border_right .action{
+	margin-left: 15px;
+}
+.table .table_content table tr td a{
+	color: #555;
+}
+.table .table_content table tr td a:hover{
+	text-decoration: underline;
+}
+.table .table_content table tr.non_border_bottom td{
+	border-bottom: none;
+}
+.table .table_content table tr td.small{
+	text-align: center;
+	width: 4%;
+	padding-left: 0;
+}
+.table .table_content table tr td.avg{
+	width: 23%;
+}
+.table .table_content table tr td.img{
+	text-align: center;
+}
+.table .table_content table tr td.avg.non_border_right{
+	border-right: none;
+}
+.table .table_content table tr.head td{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background: #F1F1F1;
+}
+.table .table_content table tr.odd td{
+	background: #F1F1F1;
+}
+.table .table_content table tr td .action{
+	float: left;
+}
+.table .table_content table tr td .action.three{
+	width: 60px;
+}
+.table .table_content table tr td .action a{
+	display: block;
+	width: 14px;
+	height: 14px;
+	float: right;
+	background: url(../image/glyphicons-halflings.png) left top no-repeat;
+	margin-right: 5px;
+}
+.table .table_content table tr td .action a.edit{
+	background-position: 0px -72px;
+}
+.table .table_content table tr td .action a.delete{
+	background-position: -455px 0px;
+}
+.table .table_content table tr td .action a.confirm{
+	background-position: -360px -120px;
+}
+.table .table_content table tr td .action a.show_dialog.confirm{
+	background-position: -72px -96px;
+}
+.table .table_content table tr td.change{
+	width: 5%;
+}
+.table .show_more{
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	background: #E4E8ED;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 1px;
+}
+.table .show_more a{
+	display: block;
+	width: 5%;
+	text-align: center;
+	background: #E42217;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-family: Calibri;
+	color: white;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	float: right;
+	margin-right: 2%;
+}
+.table .table_content table tr td.non_border_right{
+	border-right: none;
+}
+.table .pagination{
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 1px;
+}
+.table .pagination .pages{
+	height: 15px;
+	float: right;
+}
+.table .pagination .pages a.page{
+	display: block;
+	height: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	float: left;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #C03;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #E42217;
+}
+.table .pagination .pages a.page.this{
+	background: #E42217;
+	color: white;
+}
+.table .pagination .pages a.page.more{
+	padding-left: 15px;
+	padding-right: 15px;
+}

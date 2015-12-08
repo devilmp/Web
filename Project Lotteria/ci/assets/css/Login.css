@@ -1,0 +1,211 @@
+/*phần tử phủ toàn màn hình*/
+#over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+a, a:visited, a:active{
+    text-decoration:none;
+}
+
+.login_content{
+    width:450px;
+	background: transparent;
+}
+/* lớp login - cửa sổ đăng nhập*/
+.login
+{
+    background-color:#FFF;
+    height:250px;
+    width:450px;
+    font-family: Calibri;
+    font-size:17px;
+    padding-bottom:5px;
+    display:none;
+    overflow:hidden;
+    position:fixed;
+    z-index:999999999999999999999999999999999999999999999999999999999999999;/*đặt z-index để nó nổi bật và chồng lên phần tử khác trong trang*/
+    top:100px;
+    left:740px;
+    margin-left:-300px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+
+.login_content:before, .login_content:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	background: red;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: -5px;
+	left: 100px;
+}
+
+.login_content:before{
+	height: 10px;
+	width: 10px;
+	bottom: -7px;
+	border-right: 1px dashed rgba(128,130,132);
+	border-bottom: 1px dashed rgba(128,130,132);
+}
+
+.log_in_title{
+	color: #C03;
+	font-size: 23px;
+	font-weight: bold;
+	width: 150px;
+	margin: 10px auto;
+}
+
+a.forgot{
+	color: #C00;
+	float: left;
+}
+
+a.forgot:hover{
+	color: red;
+}
+		
+.login .login_title
+{
+    color:white;
+    font-size:16px;
+    padding:8px 0 5px 8px;
+    text-align:left;
+}
+
+.user a img {
+	position: absolute;
+	right: 20px;
+	top: 50px;
+}
+
+.login-content label {
+    display: block;
+    padding-bottom: 7px;
+}
+
+.login-content span {
+    display: block;
+	font-weight: bold;
+	float: left;
+	padding-top: 7px;
+	width: 150px;
+}
+.login-content
+{
+    padding-left:35px;
+    background-color:white;
+    margin-left:5px;
+    margin-right:5px;
+    height:auto;
+    padding-top:15px;
+    overflow:hidden;
+}
+	
+.img-close {
+    float: right;
+    margin-top:-33px;
+    margin-right:25px;
+}
+
+.action{
+	width: 300px;
+	margin: 0px auto;
+	padding-top: 20px;
+}	
+.button{
+    display: inline-block;
+    min-width: 46px;
+    text-align: center;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    padding: 0px 8px;
+    line-height: 36px;
+    border-radius: 4px;
+    transition: all 0.218s ease 0s;
+    border: 1px solid #DCDCDC;
+    background-color: #F5F5F5;
+    cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+
+.login input
+{
+    border:1px solid #D5D5D5;
+    border-radius:5px;
+    box-shadow:1px 1px 5px rgba(0,0,0,.07) inset;
+    color:black;
+    height:30px;
+    padding:0px 8px;
+    word-spacing:0.1em;
+    width:200px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+.login input:focus{
+    border:1px solid #D5D5D5;
+	box-shadow: 0px 0px 6px #0099FF;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+.submit-button{
+	background: #C00;
+	border: 1px solid #C03;
+	color: white;
+	width: 120px;
+    display: inline-block;
+    padding: auto;
+}
+.submit-button:hover{
+    border: 1px solid red;
+    text-decoration: none;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+.facebook-button{
+	background: #003366;
+	border: 1px solid #000099;
+	color: white;
+	width: 150px;
+    display: inline-block;
+    padding: auto;
+}
+		
+		

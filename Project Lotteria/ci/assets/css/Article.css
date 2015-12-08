@@ -1,0 +1,146 @@
+.content#article_details{
+	height: 580px;
+}
+.article_slide_image{
+	width: 645px;
+	height: 500px;
+	float: left;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.group_article{
+	width: 100%;
+	height: 5%;
+	float: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #999;
+	text-align: left;
+}
+.group_article_title{
+	width: 12%;
+	height: 100%;
+	float: left;
+}
+.group_article a.icon{
+	width: 10%;
+	height: 100%;
+	float: left;
+	background: url(../image/News/i-square.png) right top no-repeat;
+	background-size: 18px 70px;
+	background-position: 100% 1%;
+	margin-left: -7%;
+}
+.article_slide{
+	width: 100%;
+	height: 80%;
+	float: left;
+}
+.article_subject{
+	width: 546px;
+	height: 441px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 13.3%;
+}
+.article_name{
+	width: 100%;
+	height: 15%;
+	font-size: 19px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #444;
+}
+.article_name:hover{
+	color: #d11920;
+}
+.article_border{
+	padding-top: 3%;
+	width: 10%;
+	height: 5%;
+	float: left;
+	border-bottom: 1px solid #aaa;
+}
+.date_and_reference{
+	padding-top: 3%;
+	width: 100%;
+	height: 3%;
+	float: left;
+}
+.article_date{
+	width: 16%;
+	height: 100%;
+	float: left;
+	font-size: 13px;
+	font-family: sans-serif;
+	color: #ccc;
+	border-right: 1px solid #ccc;
+}
+.article_reference{
+	width: 50%;
+	height: 100%;
+	margin-left: 21%;
+}
+.article_reference a{
+	height: 110%;
+	width: 9%;
+	margin-right: 5%;
+	background: url(../image/News/social-share.png) left top no-repeat;
+	background-size: 100px 14px;
+	float: left;
+}
+.article_reference a#facebook{
+	background-position: 0 0;
+}
+.article_reference a#bird{
+	background-position:-25px 0;
+}
+.article_reference a#google{
+	background-position:-53px 0;
+}
+.article_reference a#twister{
+	background-position:-85px 0;
+}
+.article_content{
+	width: 100%;
+	height: 55%;
+	margin-top: 10%;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	color: #555;
+}
+.article_content::-webkit-scrollbar {  
+    width: 1px;  
+    background: black;
+} 
+.article_content::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 2px solid black;
+}
+.article_content::-moz-scrollbar {  
+    width: 1px;  
+    background: black;
+} 
+.article_content::-moz-scrollbar-thumb {
+  background-color: black;
+  outline: 2px solid black;
+}
+.other_articles{
+	width: 100%;
+	height: 8%;
+	margin-top: 2%;
+	float: left;
+}
+.other_articles a{
+	width: 4%;
+	height: 100%;
+	background: url(../image/News/icon-nav-post.png) left top no-repeat;
+	float: left;
+	margin-right: 3%;
+}
+.other_articles a#next{
+	background-position: -30px 0;
+}

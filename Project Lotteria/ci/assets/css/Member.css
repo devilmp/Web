@@ -1,0 +1,122 @@
+.content#member_register{
+	height: 550px;
+}
+.out_1{
+	width: 1366px;
+	height: 579px;
+	float: left;
+	position: relative;
+	top: 7.2%;
+	background: url(../image/member.jpg) left top no-repeat;
+	background-size: 100%;
+}
+.out_2{
+	width: 1366px;
+	height: 579px;
+	background: rgba(255, 203, 0, 0.87);
+	float: left;
+	font-family: sans-serif;
+}
+.out_2 .title{
+	height: 60%;
+	width: 45%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+}
+.out_2 .title#contact{
+	font-size: 50px;
+}
+.note{
+	margin-top: 2%;
+	font-size: 15px;
+}
+.input_area{
+	width: 36%;
+	height: 75%;
+	float: left;
+	margin-top: 4%;
+	margin-left: 2%;
+}
+.input_area input.infor_text, .input_area textarea{
+	width: 100%;
+	height: 8%;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	background: transparent;
+	border-top: 1px solid white;
+	overflow: inherit;
+}
+.input_area textarea{
+	height: 20%;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 20%;
+}
+
+.infor_text::-webkit-input-placeholder { /* Chrome 21 */
+    color: white;
+}
+.infor_text::-moz-placeholder { /* Chrome 21 */
+    color: white;
+}
+.infor_text:-ms-input-placeholder { /* Chrome 21 */
+    color: white;
+}
+.infor_text:-moz-placeholder {
+    color: white;
+}
+.send_option{
+	width: 100%;
+	height: 20%;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-top: 1px solid white;
+	padding-top: 2%;
+}
+.send_option #option{
+	width: 100%;
+	height: 30%;
+	float: left;
+}
+.send_option #option label{
+	position: relative;
+	top: 15%;
+}
+.gender{
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-top: 1px solid white;
+	padding-top: 2%;
+	float: left;
+	margin-bottom: 20px;
+}
+.gender #option{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.gender #option label{
+	float: left;
+	margin-right: 10px;
+}
+.input_area input[type="submit"]{
+	width: 100%;
+	height: 8%;
+	background: transparent;
+	border: none;
+	border-top: 1px solid white;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	cursor: pointer;
+}

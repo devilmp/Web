@@ -1,0 +1,171 @@
+.content{
+	width: 1366px;
+	height: 650px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.view_options{
+	margin-top: 100px;
+	width: 10%;
+	height: 4%;
+	position: absolute;
+	bottom:20%;
+	right: 5%;
+}
+.lanescape, .video, .default{
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+
+.lanescape{
+	background: url(../image/icon-func.png) left top no-repeat;
+}
+
+.video{
+	background: url(../image/icon-func.png) left top no-repeat;
+	background-position: -49px 0px;
+}
+
+.default{
+	background: url(../image/icon-func.png) left top no-repeat;
+	background-position: -89px 0px;
+}
+.trans_box{
+	width: 1366px;
+	height: 160px;
+	position: absolute;
+	bottom:-6.2%;
+	background: rgba(209,25,32,0.87);
+}
+
+.area{
+	float: left;
+	margin-top: 1.5%;
+	margin-right: 2%;
+	width: 286px;
+	height: 128px;
+	background: transparent;
+}
+
+.area#first_area{
+	margin-left: 5%;
+}
+.area_title{
+	font-family: Calibri;
+	font-size: 19px;
+	color: white;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+.sub_area{
+	width: 46%;
+	float: left;
+}
+
+.sub_area#sub_area1{
+	float: right;
+}
+
+.area_detail{
+	border-top: 1px solid white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	width: 132px;
+}
+
+.area_detail a{
+	color: white;
+}
+
+.area_detail a:hover{
+	color: #fee053;
+}
+
+.big_area{
+	width: 100%;
+	height: 105px;
+	border-top: 1px solid white;
+	font-family: Calibri;
+	color: white;
+}
+
+.big_area#delivery{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.big_area#delivery .area_image{
+	margin-top: -25%;
+	float: right;
+	width: 40%;
+	height: 90%;
+	background: url(../image/Bot/dat-hang.png) right top no-repeat;
+}
+.big_area#member {
+	height: 95px;
+	padding-top: 10px;
+}
+.big_area#member .area_image{
+	margin-top: -8%;
+	float: right;
+	width: 40%;
+	height: 90%;
+	background: url(../image/Bot/thanh-vien.png) right top no-repeat;
+}
+
+.big_area#member a{
+	color: white;
+}
+
+.big_area#member a:hover{
+	color: #fee053;
+}
+
+.big_area .big{
+	font-size: 35px;
+}
+
+.position{
+	width: 100%;
+	padding-top: 30px;
+	border-top: 1px solid white;
+}
+
+.position input.text{
+	border: none;
+	width: 90%;
+	height: 20%;
+	color: rgba(209,25,32,0.87);
+	float: left;
+}
+
+.position input.click{
+	cursor: pointer;
+}
+
+.position input.click{
+	border: none;
+	float: left;
+	width: 9%;
+	height: 20%;
+	background: url(../image/Bot/icon-find.png) center no-repeat;
+	background-color: white;
+}
+
+#pos::-webkit-input-placeholder { /* Chrome 21 */
+    color: rgba(209,25,32,0.87);
+}
+#pos::-moz-placeholder { /* Chrome 21 */
+    color: rgba(209,25,32,0.87);
+}
+#pos:-ms-input-placeholder { /* Chrome 21 */
+    color: rgba(209,25,32,0.87);
+}
+#pos:-moz-placeholder {
+    color: rgba(209,25,32,0.87);
+}

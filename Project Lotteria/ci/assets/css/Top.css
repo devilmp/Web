@@ -1,0 +1,329 @@
+header{
+	width: 1366px;
+	float: left;
+}
+.menu_top{
+	height: 41px;
+	width: 1366px;
+	background: #d11920;
+	display: block;
+	position: fixed;
+	top: 0px;
+	z-index: 999999;
+}
+.home{
+ 	float: right !important;
+ 	margin-right: 20px;
+	background: url(../image/Top/icon-nav.png) left top no-repeat;
+	width: 20px;
+	height: 17px !important;
+}
+
+.menu_top div{
+	height: 28px;
+	float: left;
+}
+.menu_top div a, .menu_top div div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.menu_top div.sub_page{
+	text-align: center;
+	padding: 13px 25px 0px 25px;
+	border-right: 1px solid #d6343a;
+}
+.menu_top div#promotion{
+	width: 110px;
+	border: none;
+	text-align: left;
+}
+.menu_top div#restaurant{
+	width: 90px;
+	text-align: right;
+}
+.menu_top div#search_icon{
+	width: 50px;
+	border-right: 1px solid #d6343a;
+	padding-top: 11px;
+	text-align: center;
+}
+.menu_top div#search_icon .image{
+	background: url(../image/Top/icon-nav.png) center top no-repeat;
+	width: 50px;
+	height: 17px !important;
+}
+.menu_top div#quantity{
+	width: 90px;
+	border-right: 1px solid #d6343a;
+	padding-top: 11px;
+	text-align: center;
+}
+.menu_top div#quantity .image a{
+	color: white;
+	text-align: right;
+	width: 50px;
+}
+.menu_top div#quantity .image{
+	margin-left: 20px;
+	background: url(../image/Top/icon-nav.png) right top no-repeat;
+	width: 20px;
+	height: 17px;
+}
+.menu_top div#language{
+	padding-top: 11px;
+}
+.menu_top div#language a{
+	margin-left: 30px;
+}
+
+.menu_top div a{
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.menu_top a:hover{
+	color: #fee053;
+}
+
+.logo{
+	width: 176px;
+	padding-top: 11px;
+	border-right: 1px solid #d6343a;
+}
+
+.food_menu{
+	width: 1366px;
+	height: 350px;
+	float: left;
+	position: fixed;
+	top: 41px;
+	left: 0;
+	background: rgba(250,250,250,0.87);
+	z-index: 999;
+    display: none;
+}
+
+.food_menu_info{
+	width: 100%;
+	height: 50%;
+	float: left;
+	position: relative;
+	top:-10%;
+}
+
+.food_menu:before{
+	content: "";
+	display: block;
+	width: 17px;
+	height: 17px;
+	position: relative;
+	top: -10px;
+	left: 220px;
+	background: #d11920;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	bottom: -12px;
+}
+
+.kind_of_meal{
+	width: 9%;
+	height: 60%;
+	float: left;
+	position: relative;
+	top: 20%;
+	left: 5%;
+	margin-right: 28px;
+}
+
+.kind_of_meal#dessert{
+	width: 12%;
+}
+
+.meal_image{
+	position: relative;
+	top: -6%;
+	width: 100%;
+	height: 60%;
+	margin: 0px auto;
+}
+
+.kind_of_meal#hamburger .meal_image{
+	background: url(../image/Menu/hamburger.png) center top no-repeat;
+}
+
+.kind_of_meal#dessert .meal_image{
+	background: url(../image/Menu/dessert.png) center top no-repeat;
+}
+
+.kind_of_meal#rice .meal_image{
+	background: url(../image/Menu/rice.png) center top no-repeat;
+}
+
+.kind_of_meal#combo .meal_image{
+	background: url(../image/Menu/combo.png) center top no-repeat;
+}
+
+.kind_of_meal#value .meal_image{
+	background: url(../image/Menu/value.png) center top no-repeat;
+}
+
+.kind_of_meal#chicken .meal_image{
+	background: url(../image/Menu/chicken.png) center top no-repeat;
+}
+
+.kind_of_meal#drink .meal_image{
+	background: url(../image/Menu/drink.png) center top no-repeat;
+}
+
+.kind_of_meal#happymenu .meal_image{
+	background: url(../image/Menu/happymenu.png) center top no-repeat;
+}
+
+.meal_image_shadow{
+	width: 100%;
+	height: 20%;
+	background: url(../image/Menu/s01.png) no-repeat;
+	float: left !important;
+}
+
+.kind_of_meal#hamburger .meal_image_shadow{
+	margin-left: -10px;
+}
+
+.kind_of_meal#dessert .meal_image_shadow{
+	background-size: 120% 98%;
+	margin-left: -10px;
+}
+
+.kind_of_meal#rice .meal_image_shadow{
+	background-size: 120% 98%;
+	width: 130%;
+	margin-left: -30px;
+}
+
+.kind_of_meal#combo .meal_image_shadow{
+	background-size: 120% 98%;
+	width: 120%;
+	margin-left: -15px;
+}
+
+.kind_of_meal#value .meal_image_shadow{
+	margin-left: -3px;
+}
+
+.kind_of_meal#nuocuong .meal_image_shadow{
+	background-size: 60% 98%;
+	width: 100%;
+	margin-left: 25px;
+}
+
+.kind_of_meal#happymenu .meal_image_shadow{
+	background-size: 95% 100%;
+	margin-left: 12px;
+}
+
+.meal_name{
+	float: left;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+.meal_name{
+	color: #333;
+	font-size: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	text-align: center;
+}
+
+.search_area{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 999999999999999999999999;
+	top: 0;
+	left: 0;
+	background: rgba(135,174,17,0.89);
+}
+.search_area form.search{
+	width: 70%;
+	height: 30%;
+	margin: 10% auto;
+}
+.search_area form.search .search_input{
+	width: 100%;
+	height: 60%;
+	border-bottom: 1px solid white;
+	float: left;
+}
+.search_area form.search .search_input .search_title{
+	width: 25%;
+	height: 70%;
+	padding-top: 6%;
+	float: left;
+	font-size: 50px;
+	font-family: Calibri;
+	color: white;
+}
+
+.search_area form.search .search_input .input_infor{
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+.search_area form.search .search_input .input_infor input.text{
+	height: 70%;
+	width: 90%;
+	background: transparent;
+	border: none;
+	position: relative;
+	top: 30%;
+	font-size: 70px;
+	color: white;
+}
+.search_area form.search .search_input .input_infor .search_close{
+	width: 27px;
+	height: 27px;
+	background: url(../image/icon.png) center no-repeat;
+	background-size: 32px;
+	background-position: 0px 0px;
+	float: right;
+	margin-top: 3%;
+	cursor: pointer;
+}
+.search_area form.search .search_input .input_infor input.confirm{
+	background: url(../image/icon.png) left top no-repeat;
+	width: 32px;
+	height: 40px;
+	border: none;
+	background-position: 0px -50px;
+	position: relative;
+	right: -40px;
+	top: 45px;
+	cursor: pointer;
+}
+.search_area form.search .option{
+	width: 100%;
+	height: 30%;
+	float: left;
+	margin-top: 1%;
+}
+.search_area form.search .option div{
+	width: 15%;
+	height: 10%;
+	float: left;
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+}

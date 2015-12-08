@@ -1,0 +1,122 @@
+.infor_area{
+	width: 100%;
+	height: 537px;
+	float: left;
+}
+.infor_area .form_area{
+	width: 45%;
+	float: left;
+	margin-top: 10px;
+}
+.infor_area .form_area.edit_order{
+	margin-right: 7%;
+}
+.infor_area .form_area .head{
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #C03;
+	border-bottom: 1px solid #C03;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.infor_area .form_area .row{
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+}
+.infor_area .form_area .row.combobox{
+	width: 50%;
+}
+.infor_area .form_area .row .label{
+	width: 38%;
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #777;
+	float: left;
+	margin-right: 2%;
+}
+.infor_area .form_area .row .input {
+	width: 60%;
+	float: left;
+}
+.infor_area .form_area .row .text{
+	width: 58%;
+	padding-top: 10px;
+	float: left;
+	margin-right: 2%;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #C03;
+	float: left;
+}
+.infor_area .form_area .row .text .number{
+	font-size: 20px;
+	float: left;
+}
+.infor_area .form_area .row .text .currency{
+	color: #777;
+	float: left;
+	margin-left: 10px;
+	padding-top: 3px;
+}
+.infor_area .form_area .row.combobox .label{
+	width: 30%;
+}
+.infor_area .form_area .row.combobox .input{
+	width: 68%;
+}
+.infor_area .form_area .row .input input[type="text"],
+.infor_area .form_area .row .input input[type="date"], 
+.infor_area .form_area .row .input input[type="password"],
+.infor_area .form_area .row .input select{
+	width: 90%;
+ 	height: 24px;
+ 	border-radius: 5px 5px 5px 5px;
+ 	border: 1px solid #ddd;
+}
+.infor_area .form_area .row.combobox .input select{
+	width: 82%;
+	margin-top: 5px;
+}
+.infor_area .form_area .row .input input[type="text"]:focus,
+.infor_area .form_area .row .input input[type="password"]:focus, 
+.infor_area .form_area .row .input input[type="date"]:focus,
+.infor_area .form_area .row .input select:focus{
+	box-shadow: 0px 0px 6px #d11920;
+	border: 1px solid #d11920;
+}
+.infor_area .form_area .row a.task, .infor_area .form_area .row input.excute,
+.infor_area .form_area .row a.task, .infor_area .form_area .row button.excute{
+	display: block;
+	background: #E42217;
+	border: 1px solid #C11B17;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+	margin-right: 20px;
+	width: 20%;
+	float: left;
+}
+.form_area .row input.excute,
+.form_area .row button.excute{
+	margin-right: 0;
+	margin-left: 20px;
+}
+.form_area .row input.excute.left,
+.form_area .row button.excute.left{
+	margin-left: 100px;
+}
+.form_area .row input.excute.center,
+.form_area .row button.excute.center{
+	margin-left: 195px;
+}
+.infor_area .form_area .row.button{
+	text-align: center;
+}

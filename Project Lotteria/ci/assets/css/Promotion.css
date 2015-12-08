@@ -1,0 +1,173 @@
+.content#promo{
+	height: 82.7%;
+}
+.promotion{
+	width: 1366px;
+	height: 105.2%;
+	float: left;
+	position: relative;
+	top: 7.2%;
+}
+.promotion img{
+	width: 100%;
+	height: 92%;
+	margin: 0% auto;
+}
+.promotion_infor{
+	width: 55px;
+	height: 53px;
+	background: #d11920;
+	position: fixed;
+	left: 1294px;
+	top: 300px;
+}
+.promotion_infor:hover{
+	background: #f68b1f;
+}
+.promotion_infor_bg{
+	width: 100%;
+	height: 100%;
+	background: url(../image/Menu/icon-fixed.png) left top no-repeat;
+	background-position: 3px -160px;
+	background-size: 52px 200px;
+	cursor: pointer;
+}
+.view_others{
+	width: 17%;
+	height: 6%;
+	background: url(../image/red-icon.png) right top no-repeat;
+	background-size: 17px 60px;
+	background-position: 90% 18px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #aaa;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin: 0px auto;
+	cursor: pointer;
+}
+.view_others:hover{
+	background-position: 90% -26px;
+}
+.promotion_details{
+	width: 100%;
+	height: 87%;
+	z-index: 99;
+	background: rgba(135,174,17,0.89);
+	position: fixed;
+	top: 6.2%;
+	display: none;
+}
+.close_promo{
+	width: 27px;
+	height: 27px;
+	background: url(../image/icon.png) center no-repeat;
+	background-size: 32px;
+	background-position: 0px 0px;
+	margin: 0% auto;
+	margin-top: 3%;
+	cursor: pointer;
+}
+.promo_infor{
+	width: 50%;
+	height: 80%;
+	margin: 10% auto;
+	font-family: sans-serif;
+	color: white;
+}
+.promo_title{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 2%;
+}
+.promo_detail{
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 2%;
+}
+.range_effect{
+	width: 100%;
+	text-align: center;
+}
+.other_promotions{
+	width: 1366px;
+	height: 100%;
+	z-index: 99;
+	background: white;
+	position: fixed;
+	top: 6.2%;
+	display: none;
+}
+.list_promo{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	float: left;
+}
+.promo_item{
+	float: left;
+	margin-left: 3%;
+	margin-top: 5%;
+	width: 288px;
+	height: 300px;
+	padding-bottom: 15%;
+	text-align: center;
+	overflow: hidden;
+}
+.promo_img_thumb{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.promo_item img{
+	position: relative;
+	top: 0%;
+}
+.promo_item#happy_new_year .title_promo{
+	background: rgba(209, 165, 25, 0.87);
+}
+.promo_item#atom .title_promo{
+	background: rgba(209,25,32,0.87);
+}
+.title_promo{
+	width: 100%;
+	height: 40%;
+	font-family: sans-serif;
+	color: white;
+}
+.title_promo .title{
+	width: 100%;
+	height: 60%;
+	background: url(../image/Promotion/line-date.png) center bottom no-repeat;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	padding-top: 10%;
+}
+.title_promo .date{
+	height: 30%;
+	float: left;
+	margin-top: -10px;
+	background: transparent;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 40%;
+	padding-top: 1px;
+}
+.close_list{
+	width: 30%;
+	height: 10%;
+	background-size: 24px;
+	margin: 0% auto;
+	margin-top: 3%;
+	cursor: pointer;
+	color: black;
+	font-family: sans-serif;
+	color: #aaa;
+	font-weight: bold;
+	margin: 0% auto;
+}

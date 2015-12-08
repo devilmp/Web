@@ -1,0 +1,34 @@
+.content#contact_area{
+	height: 579px;
+}
+.contact{
+	position: relative;
+	top: 7%;
+	float: left;
+}
+.contact#contact_title{
+	width:683px;
+	height: 579px;
+	background: rgba(250, 237, 112, 1);
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
+.address{
+	margin-top: 95px;
+	margin-left: 50px;
+	font-size: 15px;
+}
+.company_name{
+	font-size: 60px;
+}
+.contact#contact_input{
+	width: 683px;
+	height: 579px;
+	background: rgba(209,25,32,0.87);
+}
+.contact#contact_input .input_area{
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 16%;
+}

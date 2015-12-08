@@ -1,0 +1,33 @@
+form.print{
+	width: 870px;
+	float: left;
+}
+.title_row{
+	float: left;
+}
+.title_row.margin{
+	margin-top: 20px;
+}
+.row{
+	margin-top: 30px;
+	width: 150%;
+}
+.row h4{
+	width: 30%;
+	float: left;
+}
+.header_area{
+	width: 250px;
+	height: 70px;
+	float: left;
+}
+.header_area#mid{
+	padding-top: 100px;
+	width: 370px;
+}
+table.printOrder{
+	float: left;
+}
+table.printOrder tr td{
+	padding: 20px;
+}

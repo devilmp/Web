@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.clr{
+	clear: both;
+}
+body{
+	overflow-x: hidden; 
+	background: url(../image/body.jpg) left top repeat;
+}
+a{
+	text-decoration: none;
+}
+.body{
+	width: 1366px;
+	float: left;
+}
+.work_area{
+	width: 1136px;
+	float: left;
+}
+.divider{
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+.divider#side_menu_divider{
+	background: url(../image/Side_menu/menu.jpg) left top repeat;
+}
+.inner_divider{
+	margin-top: 15px;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+.inner_divider img{
+	margin-top: -3px;
+}

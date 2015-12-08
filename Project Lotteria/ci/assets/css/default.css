@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.clr{
+	clear: both;
+}
+body{
+	overflow-x: hidden;
+	 
+}
+a{
+	text-decoration: none;
+}
+.web_page{
+	width: 1349px;
+	float: left;
+}

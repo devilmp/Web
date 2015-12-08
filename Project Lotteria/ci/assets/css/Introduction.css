@@ -1,0 +1,104 @@
+.intro{
+	width: 1366px;
+	height: 100%;
+	float: left;
+}
+.intro#philosophy{
+	width: 1366px;
+	float: left;
+	margin-bottom: -32px;
+}
+.intro#lotteria_vietNam .slide-stage{
+	top: 20%;
+	left: 4%;
+	width: 95%;
+}
+.intro_title{
+	width: 30%;
+	height: 10%;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #777;
+	position: relative;
+	top: 17%;
+	left: 44%;
+}
+.about_lotteria{
+	width: 45%;
+	height: 50%;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	text-align: justify;
+	font-size: 13px;
+	font-family: Calibri;
+	color: #666;
+}
+.about_lotteria p{
+	margin-bottom: 5%;
+}
+.top_philosophy{
+	width: 100%;
+	height: 3.5%;
+	background: url(../image/Intro/top-about.png) left top no-repeat;
+	float: left;
+}
+.body_philosophy{
+	width: 100%;
+	height: 100%;
+	background: #fac93f;
+	float: left;
+	margin-top: -1%;
+}
+.title_philosophy{
+	width: 30%;
+	height: 40%;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+.content_philosophy{
+	width: 50%;
+	height: 50%;
+	float: right;
+	position: relative;
+	right: 7%;
+	top: 2%;
+}
+.area_philosophy{
+	float: left;
+	width: 48%;
+	height: 48%;
+	margin-right: 2%;
+	font-family: Calibri;
+	font-weight: bold;
+	color: white;
+}
+.big{
+	font-size: 40px;
+	padding-top: 5%;
+	vertical-align: bottom;
+}
+.small{
+	width: 100%;
+}
+.area_philosophy#quality{
+	position: relative;
+	top: 14%;
+}
+.area_philosophy#clean_environment .big{
+	width: 30%;
+	height: 60%;
+}
+.bottom_philosophy{
+	width: 100%;
+	height: 30%;
+	background: url(../image/Intro/bot-about.png) center no-repeat;
+	position: relative;
+	bottom: -69%;
+}

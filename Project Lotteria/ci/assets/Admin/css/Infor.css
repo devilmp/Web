@@ -1,0 +1,208 @@
+/*CSS for Add Meal page*/
+.meal{
+	width: 100%;
+	height: 550px;
+	margin-bottom: 17px;
+	float: left;
+}
+.area_title{
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #C03;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #C03;
+}
+.meal .meal_image{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.meal .meal_image .image{
+	width: 100%;
+	float: left;
+}
+.meal .meal_image .edit_image{
+	width: 100%;
+	float: left;
+}
+.meal .meal_details{
+	width: 60%;
+	float: left;
+}
+.meal .meal_details .informations{
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+}
+.meal .meal_details .informations input[type="text"], .meal .meal_details .informations textarea,
+.meal .meal_details .informations select{
+	width: 99%;
+	height: 30px;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ddd;
+	resize: none;
+}
+.meal .meal_details .informations textarea{
+	height: 100px;
+}
+.meal .meal_details .informations input[type="text"]:focus, .meal .meal_details .informations textarea:focus{
+	box-shadow: 0px 0px 6px #d11920;
+	border: 1px solid #d11920;
+}
+.meal .meal_details .informations textarea::-webkit-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.meal .meal_details .informations textarea::-webkit-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+  height: 10px;
+}
+.meal .meal_details .informations textarea::-moz-scrollbar {  
+    width: 2px;  
+    background: #7F1C0F;
+} 
+.meal .meal_details .informations textarea::-moz-scrollbar-thumb {
+  background-color: #7F1C0F;
+  outline: 1px solid #7F1C0F;
+}
+.meal .meal_image .edit_image input[type="file"]{
+	color: transparent;
+	width: 200px;
+}
+.meal .meal_image .edit_image input[type="file"]::-webkit-file-upload-button{
+	visibility: hidden;
+}
+.meal .meal_image .edit_image input[type="file"]::before{
+	content: 'Select an image';
+    display: inline-block;
+	color: white;
+	background: #E42217;
+    border: 1px solid #C11B17;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.meal .meal_details .informations .meal_infor{
+	width: 47%;
+	float: left;
+}
+.meal .meal_details .informations .meal_infor.margin_right{
+	margin-right: 6%;
+}
+.meal .meal_details .informations .meal_infor .group{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+.meal .meal_details .informations .meal_infor .group .details{
+	width: 100%;
+	font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 10px;
+}
+.meal .meal_details .informations .meal_infor .name{
+	margin-top: 70px;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+.meal .meal_details .informations .meal_infor .name .details{
+	font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #C03;
+    margin-bottom: 20px;
+}
+.meal .meal_details .informations .meal_infor .name.add_new .details{
+	width: 100%;
+	font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 10px;
+}
+.meal .meal_details .informations .meal_infor .price{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.meal .meal_details .informations .meal_infor .title,
+.meal .meal_details .informations .meal_infor .number,
+.meal .meal_details .informations .meal_infor .currency{
+	float: left;
+	margin-right: 5px;
+	font-size: 20px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	color: #777;
+    margin-bottom: 10px;
+}
+.meal .meal_details .informations .meal_infor .stock{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+.meal .meal_details .informations .meal_infor .stock .details{
+	width: 100%;
+	font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+}
+.meal .meal_details .informations .meal_infor .description{
+	width: 100%;
+	float: left;
+	margin-top: 70px;
+}
+.meal .meal_details .informations .meal_infor .description .description_title{
+	font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+    padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.meal .meal_details .informations .meal_infor .description .content{
+	margin-top: 10px;
+	font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+}
+.meal .meal_details .informations .do_actions{
+	width: 100%;
+	float: left;
+}
+.meal .meal_details .informations .do_actions .action{
+	float: left;
+	margin-top: 20px;
+}
+.meal .meal_details .informations .do_actions .action button,
+.meal .meal_details .informations .do_actions .action input,
+.meal .meal_details .informations .do_actions .action a{
+	display: block;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	background: #E42217;
+	border: 1px solid #C11B17;
+	padding: 5px 20px;
+	border-radius: 5px 5px 5px 5px;
+	float: left;
+	margin-right: 30px;
+}
+.meal .meal_details .informations .do_actions .action input[type="submit"]{
+	margin-right: 20px;
+}

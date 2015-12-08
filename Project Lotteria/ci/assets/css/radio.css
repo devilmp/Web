@@ -1,0 +1,16 @@
+input[type="radio"] {
+    float: right;
+    -webkit-appearance: none;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url(../image/radio-custom.png) left center no-repeat;    
+    background-size: 16px; 
+    background-position: 0px -32px;
+    float: left;
+    margin-right: 10px;
+}
+input[type="radio"]:checked {
+    background: url(../image/radio-custom.png) left center no-repeat;
+    background-position: 0px 0px;
+}
